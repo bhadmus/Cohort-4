@@ -1,0 +1,5 @@
+node_modules/
+cypress.env.json
+.vscode/
+.idea/
+.DS_Store

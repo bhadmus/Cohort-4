@@ -1,0 +1,14 @@
+{
+  "signUpButton": ".Header2_header__nav__btn__wRKfY > div:nth-child(2) button",
+  "busRegNumField": "#businessRegNum",
+  "busEmailField":"#businessemail",
+  "busPhoneNUmberField": "#businessphonenumber",
+  "busBizNameField":"#businessname",
+  "fullnameField": "#fullname",
+  "nextButton": "button",
+  "howYouHeard": "div[placeholder]",
+  "infoOption": ".MimaDropdown_select__options__xLi7K",
+  "passwordField": "#password",
+  "inputField": "input",
+  "emailField": "#email"
+}
