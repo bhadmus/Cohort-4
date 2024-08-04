@@ -19,3 +19,6 @@ This is introducing the class to automation
 
 ## Contributor
 [Ademola Bhadmus](https://bhadmusautomates.com/)
+
+## Issues
+- All Issues should be reported [here](https://github.com/bhadmus/Cohort-4/issues)
