@@ -19,6 +19,14 @@
   "cypress-cucumber-preprocessor": {
     "stepDefinitions": [
       "cypress/e2e/**/*.{js,ts}"
-    ]
+    ],
+    "json":{
+      "enabled": true,
+      "output": "cypress/reports/json/results.json"
+    },
+    "html":{
+      "enabled": true,
+      "output": "cypress/reports/html/results.html"
+    }
   }
 }

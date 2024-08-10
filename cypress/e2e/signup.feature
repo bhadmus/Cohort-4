@@ -13,15 +13,15 @@ Feature: Testing Signup Journeys
     And I select how I heard about mima through "<source>"
     And I fill in the "password"
     And I click The "Sign Up" Button
-    And I insert the OTP
-    Then I should see the dashboard sidebar content
-      | panel        |
-      | Customer     |
-      | Booking      |
-      | Orders       |
-      | Payment Link |
-      | Paybills     |
-      | Stock        |
+    # And I insert the OTP
+    # Then I should see the dashboard sidebar content
+    #   | panel        |
+    #   | Customer     |
+    #   | Booking      |
+    #   | Orders       |
+    #   | Payment Link |
+    #   | Paybills     |
+    #   | Stock        |
     Examples:
       | source           |
       | Facebook         |

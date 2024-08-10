@@ -3,3 +3,6 @@ cypress.env.json
 .vscode/
 .idea/
 .DS_Store
+cypress/screenshots/
+cypress/videos/
+cypress/reports/
