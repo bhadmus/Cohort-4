@@ -15,8 +15,12 @@ jobs:
 
         - name: Run Cypress Scripts 
           uses: cypress-io/github-action@v6 
+          with:
+            record: true
+            parallel: true
           env:
             CYPRESS_MAILSLURP_API_KEY: ${{env.CYPRESS_KEY}}
+            CYPRESS_RECORD_KEY: ${{ secrets.CYPRESS_RECORD_KEY }}
 
         - name: Save Results To Repo
           uses: actions/upload-artifact@v3
