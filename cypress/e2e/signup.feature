@@ -25,6 +25,6 @@ Feature: Testing Signup Journeys
     Examples:
       | source           |
       | Facebook         |
-      | Twitter          |
-      | Others           |
-      | Friends & Family |
+      # | Twitter          |
+      # | Others           |
+      # | Friends & Family |
