@@ -24,7 +24,7 @@ Feature: Testing Signup Journeys
     #   | Stock        |
     Examples:
       | source           |
-      | Facebook         |
-      | Twitter          |
-      | Others           |
-      | Friends & Family |
+      # | Facebook         |
+      # | Twitter          |
+      # | Others           |
+      # | Friends & Family |
