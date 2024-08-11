@@ -27,3 +27,9 @@ jobs:
           with: 
             name: results
             path: cypress/reports/html/results.html  
+
+        - name: Upload to Browserstack
+          uses: browserstack/github-actions/setup-env@master
+          with:
+            username:  ${{ secrets.BROWSERSTACK_USERNAME }}
+            access-key: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
